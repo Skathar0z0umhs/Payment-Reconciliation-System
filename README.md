@@ -53,8 +53,8 @@ I originally built this for a **real client** whose orders and bank statements a
 ### Option 1 — Run locally
 
 ```bash
-git clone <your-repo-url>
-cd "Payment Reconciliation System"
+git clone https://github.com/Skathar0z0umhs/Payment-Reconciliation-System.git
+cd Payment-Reconciliation-System
 pip install -r requirements.txt
 streamlit run app.py
 ```
