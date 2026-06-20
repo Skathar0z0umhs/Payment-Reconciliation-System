@@ -64,6 +64,8 @@ Then open **http://localhost:8501** in your browser.
 ### Option 2 — Run with Docker
 
 ```bash
+git clone https://github.com/Skathar0z0umhs/Payment-Reconciliation-System.git
+cd Payment-Reconciliation-System
 docker build -t reconciliation .
 docker run -d -p 8501:8501 -v reco_data:/app/data reconciliation
 ```
