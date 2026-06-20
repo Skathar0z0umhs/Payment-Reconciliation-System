@@ -1,0 +1,17 @@
+[theme]
+# Corporate Blue palette — applied to every Streamlit widget globally.
+primaryColor = "#2d6a9f"            # accent (buttons, sliders, active tabs)
+backgroundColor = "#ffffff"          # main page background
+secondaryBackgroundColor = "#f4f7fb" # sidebar & cards background
+textColor = "#1e293b"                # main text (slate)
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Hide the built-in "Deploy" button and the developer menu (top-right).
+toolbarMode = "minimal"

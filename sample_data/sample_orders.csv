@@ -1,0 +1,13 @@
+Date,Re Nummer,Order ID,Name,Summe,Zahlungsart
+2025-01-05,RE-11001,21001,Hans Mueller,150.00,bacs
+2025-01-08,RE-11002,21002,Anna Schmidt,89.90,bacs
+2025-01-12,RE-11003,21003,Peter Wagner,245.50,bacs
+2025-01-15,RE-11004,21004,Maria Fischer,75.00,bacs
+2025-01-20,RE-11005,21005,Thomas Becker,320.00,bacs
+2025-01-22,RE-11006,21006,Julia Hoffmann,199.99,bacs
+2025-01-25,RE-11007,21007,Stefan Koch,49.90,bacs
+2025-02-01,RE-11008,21008,Laura Richter,560.00,bacs
+2025-02-03,RE-11009,21009,Michael Bauer,125.00,bacs
+2025-02-05,RE-11010,21010,Sandra Klein,88.50,bacs
+2025-02-10,RE-11011,21011,Daniel Wolf,410.00,bacs
+2025-02-12,RE-11012,21012,Nicole Schaefer,67.00,bacs

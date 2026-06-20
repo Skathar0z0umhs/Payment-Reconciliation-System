@@ -1,0 +1,36 @@
+# ── Real client data — NEVER commit (privacy / financial data) ────────────────
+*.csv
+*.CSV
+*.xlsx
+
+# Exception: the demo/sample data is fake and safe to publish.
+!sample_data/
+!sample_data/*.csv
+
+# ── Database & data folder (the memory volume) ────────────────────────────────
+data/
+*.db
+
+# ── Personal scratch / local-only files ───────────────────────────────────────
+playground.py
+reconciliation/configuration.py
+reconciliation.log
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+
+# ── Python cache / build artifacts ────────────────────────────────────────────
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Editor / OS junk ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+Verwendungszweck;Name Zahlungsbeteiligter;Betrag;Buchungstag;Valutadatum
+Rechnung 11005 Zahlung;Thomas Becker;320,00;2025-01-22;2025-01-22
+Bestellung 21006 Zahlung;Julia Hoffmann;199,99;2025-01-24;2025-01-24
+Ueberweisung Zahlung;Stefan Koch;49,90;2025-01-27;2025-01-27
+Rechnung 11011;Daniel Wolf;410,00;2025-02-11;2025-02-11
+AMAZON Payments Auszahlung;AMAZON;75,00;2025-02-02;2025-02-02
+Zahlungseingang unbekannt;Brigitte Lang;305,00;2025-02-15;2025-02-15
