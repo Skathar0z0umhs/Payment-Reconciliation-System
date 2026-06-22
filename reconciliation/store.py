@@ -20,9 +20,7 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, Session
 
 logger = logging.getLogger(__name__)
 
-# The database lives in a "data" folder at the PROJECT ROOT (one level above
-# this package). In Docker we mount a VOLUME on this folder so the .db survives
-# container rebuilds. The location can be overridden with the DATA_DIR env var.
+
 _PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.environ.get(
     "DATA_DIR",
@@ -78,13 +76,11 @@ def _clean(value):
 
 #  Public API 
 def init_db() -> None:
-    """Create the tables if they don't exist yet. Safe to call repeatedly."""
     Base.metadata.create_all(ENGINE)
     logger.info("Database ready at %s", DB_PATH)
 
 
 def save_outstanding_orders(df: pd.DataFrame) -> None:
-    """Replace the outstanding-orders ledger with the given DataFrame."""
     keep = ["receipt_number", "order_id", "name", "amount_paid", "date"]
     cols = [c for c in keep if c in df.columns]
     records = df[cols].copy()
